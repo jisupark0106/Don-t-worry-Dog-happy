@@ -68,6 +68,18 @@ DataBase: Mysql
 
 <img src="img/sys_arch.png" title="system_arch" alt="system_arch"></img><br/>
 
+#### 동작설명
+
+- 반려견에게 부착된 만보기로부터 움직임 데이터를 수집한다.
+- 만보기는 수집한 데이터를 `Activity DB`에 저장한다.
+- `Calorie Managing Server`는 `Activity DB`에 저장된 움직임 데이터와
+  사용자가 입력한 체중을 바탕으로 CFM지수를 도출한다.
+  - CFM지수 : Customized Feed Management 지수
+- 자동배식기는 `Calorie Managing Server`에 요청하여 식사시간이 맞는지, 반려견이 집에 있는지 `Wifi Mac주소`를 활용하여 확인한다.
+- 위를 바탕으로 조건이 만족되면, 자동배식기는 FeedBack구조로 구성되어 `Calorie Managing Server`로부터 받은 식사를 배식한다.
+- 사용자는 반려견의 초기정보를 입력할 수 있으며, 수시로 체중을 업데이트 하여 CFM지수의 정확도를 높일 수 있다.
+- 사용자는 만보기로부터 수집된 데이터와 반려견의 최근 체중 정보를 모바일 어플리케이션을 통해 그래프로 확인할 수 있다.
+
 <br>
 
 ## Android Flow Chart
