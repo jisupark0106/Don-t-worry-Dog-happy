@@ -1,6 +1,6 @@
 # Don't worry, Dog happy
 
-<img src="img/logo.png" title="logo" alt="walle_logo"></img><br/>
+<img src="img/walle_logo.png" title="logo" alt="walle_logo"></img><br/>
 
 ### 반려견을 위한 IoT care system
 
@@ -66,7 +66,7 @@ DataBase: Mysql
 
 ## System Architecture
 
-<img src="img/system_arch.png" title="system_arch" alt="system_arch"></img><br/>
+<img src="img/sys_arch.png" title="system_arch" alt="system_arch"></img><br/>
 
 <br>
 
@@ -86,7 +86,7 @@ DataBase: Mysql
   DC모터와 무게센서를 사용하여 식사량 조절이 가능하며,강아지의 위치를  Wifi mac 주소로 파악하여 반려견이 집에 머무는 경우 정해진 시간에 배식을 수행한다.
 
   <br>
-  <img src="img/walle_feed.png" width ="300px" title="feed" alt="feed"></img><br/>
+  <img src="img/walle_feedhelper.png" width ="300px" title="feed" alt="feed"></img><br/>
 
 #### 반려견 Care Monitoring Service
 
