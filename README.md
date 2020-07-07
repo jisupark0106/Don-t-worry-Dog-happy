@@ -70,6 +70,11 @@ DataBase: Mysql
 
 <br>
 
+## Android Flow Chart
+
+<img src="img/android_flow.jpg" title="flowchart" alt="flowchart"></img><br/>
+
+<br>
 ## 작품설명
 
 #### 반려견을 위한 핵심기기
